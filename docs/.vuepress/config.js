@@ -6,9 +6,9 @@ const sidebar = temp.sideBar
 const nav = temp.nav
 module.exports = {
   // 网站 Title
-  title: '<%name%>',
+  title: '<%=name%>',
   // 网站描述
-  description: '<%description%>',
+  description: '<%=description%>',
   // 网站 favicon 图标设置等
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -40,8 +40,8 @@ module.exports = {
       avatar: '/', // 头像 public文件夹下
       headerBackgroundImg: '/avatar-bg.jpeg', // 头部背景图
       description: 'In me the tiger sniffs the rose<br/>心有猛虎，细嗅蔷薇', // 个人简介 (支持 HTML)
-      email: '<%email%>', // 电子邮箱
-      location: '<%location%>', // 所在地
+      email: '<%=email%>', // 电子邮箱
+      location: '<%=location%>', // 所在地
     },
     // 顶部导航栏内容
     nav:nav,
