@@ -17,7 +17,7 @@ git commit -m 'deploy'
 # 如果发布到 https://<USERNAME>.github.io  填写你刚刚创建的仓库地址
 # git remote add origin https://github.com/xxxx.git
 
-git push -f git@github.com:ms-yip/<%=name%>.git master:gh-pages
+git push -f git@github.com:ms-yip/vuepress-doc-tpl.git master:gh-pages
 
 # # 如果发布到 https://<USERNAME>.github.io
 # # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
